@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+*{
+    scroll-behavior: smooth;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.banner_img {
+    width: 200px;
+    height: 380px;
+    background: url('../images/package.png') center/cover no-repeat;
+    mask-image: url('../images/juice_can.png');
+    mask-size: cover;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    -webkit-mask-image: url('../images/juice_can.png');
+    -webkit-mask-size: cover;
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: center;
+    transform: translateX(0);
+    z-index: 100;
+    /* opacity: 0; */
+}
